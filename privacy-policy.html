@@ -93,16 +93,21 @@
 
         <h1>Privacy Policy</h1>
         <p class="meta">
-            <strong>Last Updated:</strong> January 20, 2026<br>
-            <strong>Effective Date:</strong> January 20, 2026
+            <strong>Last Updated:</strong> January 21, 2026<br>
+            <strong>Effective Date:</strong> January 21, 2026
         </p>
+
+        <div class="highlight">
+            <strong>✅ GDPR Compliant</strong><br>
+            This policy complies with the General Data Protection Regulation (EU) 2016/679.
+        </div>
 
         <h2>1. Introduction</h2>
         <p>Welcome to HabitQuest ("we," "our," or "the App"). We are committed to protecting your privacy and personal data. This Privacy Policy explains how we collect, use, store, and protect your information when you use our iOS application.</p>
         
         <div class="contact">
             <strong>Developer Contact:</strong><br>
-            Email: <a href="mailto:contact@habitquest.app">contact@habitquest.app</a><br>
+            Email: <a href="mailto:habitsquest@gmail.com">habitsquest@gmail.com</a><br>
             <!-- Update with your actual contact information -->
         </div>
 
@@ -215,93 +220,77 @@
         <h2>8. Data Retention</h2>
         <ul>
             <li><strong>Local Data:</strong> Retained until you delete the app</li>
-            <li><strong>iCloud Data:</strong> Retained until you delete it manually or cancel Premium subscription</li>
-            <li><strong>Subscription History:</strong> Apple retains for legal/tax purposes (refer to Apple's policies)</li>
-            <li><strong>Deleted Data:</strong> Permanently removed within 30 days</li>
+            <li><strong>iCloud Data:</strong> Retained until you delete it or disable iCloud sync</li>
+            <li><strong>Analytics:</strong> Anonymous aggregated data kept for 90 days (TelemetryDeck)</li>
+            <li><strong>Purchases:</strong> History kept by Apple according to their policy</li>
         </ul>
 
-        <h2>9. Third-Party Services</h2>
+        <h2>9. Detailed Analytics</h2>
         
-        <h3>9.1 Apple Services Used</h3>
+        <h3>9.1 Tracked Events (Anonymous)</h3>
+        <p>We track the following events to improve the application:</p>
         <ul>
-            <li><strong>CloudKit:</strong> Data sync for Premium users (<a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>)</li>
-            <li><strong>StoreKit:</strong> In-App Purchase processing (<a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>)</li>
-            <li><strong>App Store:</strong> App distribution and analytics (<a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>)</li>
+            <li><strong>Lifecycle:</strong> app_launched, app_backgrounded, app_terminated</li>
+            <li><strong>Onboarding:</strong> onboarding_started, onboarding_completed, onboarding_skipped</li>
+            <li><strong>Games:</strong> game_started, game_completed, game_abandoned</li>
+            <li><strong>Progression:</strong> level_up, xp_earned, streak_achieved</li>
+            <li><strong>Premium:</strong> premium_purchased, premium_restored, premium_cancelled</li>
+            <li><strong>Content:</strong> custom_content_created, custom_content_played</li>
+            <li><strong>Sync:</strong> cloudkit_sync_success, cloudkit_sync_failed</li>
+            <li><strong>Errors:</strong> error_occurred (with anonymous error type)</li>
         </ul>
 
         <h3>9.2 Analytics (TelemetryDeck)</h3>
         <div class="highlight">
-            <p>HabitQuest uses <strong>TelemetryDeck</strong>, a privacy-first analytics service based in Germany.</p>
+            <strong>Privacy-First Analytics</strong><br><br>
+            <strong>Provider:</strong> TelemetryDeck GmbH (Germany)<br>
+            <strong>GDPR:</strong> ✅ Compliant (EU servers)<br>
+            <strong>Data:</strong> No PII (no IP, email, device ID)<br>
+            <strong>Aggregation:</strong> 100% aggregated and anonymized data<br>
+            <strong>Retention:</strong> 90 days maximum<br>
+            <strong>Opt-Out:</strong> Settings > Analytics > Disable<br><br>
             
-            <h4>What We Track:</h4>
-            <ul>
-                <li><strong>App Events:</strong> App launches, screen views, activity usage</li>
-                <li><strong>Usage Patterns:</strong> Which activities are played, difficulty levels</li>
-                <li><strong>Device Info:</strong> iOS version, device model (for compatibility)</li>
-            </ul>
-
-            <h4>Privacy Guarantees:</h4>
-            <ul>
-                <li>✅ <strong>100% Anonymous</strong> – No user identifiers collected</li>
-                <li>✅ <strong>GDPR Compliant</strong> – Certified privacy-first service</li>
-                <li>✅ <strong>EU Hosted</strong> – Data stored in Germany (Hetzner servers)</li>
-                <li>✅ <strong>90-day Retention</strong> – Aggregated data deleted after 90 days</li>
-                <li>✅ <strong>Opt-Out Available</strong> – Disable in Settings > Analytics</li>
-            </ul>
-
-            <h4>What TelemetryDeck Does NOT Collect:</h4>
-            <ul>
-                <li>❌ No personal information (name, email, phone)</li>
-                <li>❌ No IP addresses or location data</li>
-                <li>❌ No device identifiers (IDFA, Advertising ID)</li>
-                <li>❌ No user content or game answers</li>
-            </ul>
-
-            <h4>Service Details:</h4>
-            <ul>
-                <li><strong>Provider:</strong> TelemetryDeck GmbH (Germany)</li>
-                <li><strong>Purpose:</strong> Improve app performance and user experience</li>
-                <li><strong>Learn More:</strong> <a href="https://telemetrydeck.com/privacy" target="_blank">telemetrydeck.com/privacy</a></li>
-            </ul>
+            <strong>Certification:</strong><br>
+            • ISO 27001 (Information Security)<br>
+            • GDPR-compliant by design<br>
+            • Hosting: Hetzner (Germany, EU)<br><br>
+            
+            <strong>Learn more:</strong> <a href="https://telemetrydeck.com/privacy" target="_blank">telemetrydeck.com/privacy</a>
         </div>
 
-        <h3>9.3 No Other Third Parties</h3>
-        <p>HabitQuest does <strong>not</strong> integrate:</p>
+        <h3>9.3 Data NOT Collected by TelemetryDeck</h3>
         <ul>
-            <li>Google Analytics, Firebase, or similar tracking services</li>
-            <li>Facebook SDK or social media integrations</li>
-            <li>Ad networks (AdMob, etc.)</li>
-            <li>External crash reporting (Crashlytics, Sentry, etc.)</li>
-            <li>Marketing or advertising trackers</li>
+            <li>❌ IP Address (hashed only for deduplication)</li>
+            <li>❌ Device identifiers (IDFA/IDFV)</li>
+            <li>❌ Email or username</li>
+            <li>❌ Game content or answers</li>
+            <li>❌ Precise geographic location</li>
         </ul>
 
-        <h2>10. Contact Information</h2>
+        <h2>10. Cookies and Similar Technologies</h2>
+        <p><strong>HabitQuest does NOT use cookies</strong> as it is a native iOS application, not a website.</p>
+        <ul>
+            <li>We use iOS UserDefaults to store preferences locally</li>
+            <li>No tracking or advertising cookies</li>
+            <li>No web tracking technologies</li>
+        </ul>
+
+        <h2>11. International Data Transfers</h2>
+        <ul>
+            <li><strong>iCloud:</strong> Apple servers in the EU (GDPR compliant)</li>
+            <li><strong>TelemetryDeck:</strong> Hetzner servers in Germany (EU)</li>
+            <li><strong>App Store:</strong> Apple's global infrastructure (EU standard contractual clauses)</li>
+        </ul>
+
+        <h2>12. Contact Information</h2>
         <div class="contact">
             <p>For privacy questions, data requests, or concerns:</p>
-            <strong>Email:</strong> <a href="mailto:contact@habitquest.app">contact@habitquest.app</a><br>
-            <!-- <strong>Website:</strong> <a href="https://habitquest.app">habitquest.app</a><br> -->
+            <strong>Email:</strong> <a href="mailto:habitsquest@gmail.com">habitsquest@gmail.com</a><br>
             <strong>Response Time:</strong> We aim to respond within 7 business days.
         </div>
 
-        <h2>11. Changes to This Policy</h2>
-        <ul>
-            <li>We may update this Privacy Policy to reflect app changes or legal requirements</li>
-            <li><strong>Notification:</strong> In-app notice and updated "Last Updated" date</li>
-            <li><strong>Continued Use:</strong> Using the app after changes constitutes acceptance</li>
-            <li><strong>Material Changes:</strong> Require explicit consent via in-app prompt</li>
-        </ul>
-
-        <h2>12. Legal Compliance</h2>
-        <p>This Privacy Policy complies with:</p>
-        <ul>
-            <li><strong>GDPR</strong> (General Data Protection Regulation - EU)</li>
-            <li><strong>CCPA</strong> (California Consumer Privacy Act - USA)</li>
-            <li><strong>COPPA</strong> (Children's Online Privacy Protection Act - USA)</li>
-            <li><strong>Apple App Store Guidelines</strong></li>
-        </ul>
-
         <div class="footer">
-            <p><strong>Version:</strong> 1.0 | <strong>Last Updated:</strong> January 20, 2026</p>
+            <p><strong>Version:</strong> 1.0 | <strong>Last Updated:</strong> January 21, 2026</p>
             <p>© 2026 HabitQuest. All rights reserved.</p>
             <p><a href="terms-of-service.html">Terms of Service</a> | <a href="politique-confidentialite.html">Politique de Confidentialité (FR)</a></p>
         </div>
